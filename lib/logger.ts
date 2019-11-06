@@ -103,4 +103,8 @@ export default class Logger {
   silly(keyValues: KeyValues) {
     this.logKeyValuePairs(keyValues, this.logger.silly);
   }
+
+  system(message: string) {
+    this.logger.info(message);
+  }
 }
