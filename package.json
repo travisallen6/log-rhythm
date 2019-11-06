@@ -1,6 +1,6 @@
 {
   "name": "log-rhythm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A minimal syntax approach built on top of winston logger",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
